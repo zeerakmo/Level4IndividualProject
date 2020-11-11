@@ -111,8 +111,11 @@
 
 * *0.5 hour* *Had a meeting with supervisor and talked about direction I should take analysis in
              *Decided to get results to discuss for next week
-             *Set up functions to error results as a percentage 
+* *7.5 hour* *Set up functions to error results as a percentage 
              *Created a function to tell me how many cases there are of error about a certain threshold
              *Recreated RetinaFace dictionary as some of the values were wrong
              *Created function to generate histograms for each algorthims error distances
              *Worked on github repo by uploading template files and flling them out with my previous data and artifacts
+             *Created function to generate difference in frequencies of errors aswell as corresponding graphs
+             *Generated which face gave the worst and best result for each algortihm
+             *Collated my results in an excel file 
