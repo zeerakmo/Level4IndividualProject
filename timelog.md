@@ -1,9 +1,9 @@
 # Timelog
 
-* PROJECT NAME
-* YOUR NAME
-* STUDENT_ID
-* SUPERVISOR NAME
+* The Sensitivity of Facial Analysis Algorithms to Race and Gender
+* Mohammed Zeerak
+* 2314940z
+* Nicolas Pugeault
 
 ## Guidance
 
@@ -14,13 +14,105 @@
 
 ## Week 1
 
-### 19 Oct 2019
+### 30 Sept 2020
 
-* *4 hours* Read the project guidance notes
-* *0.5 hour* Created GitLab repository and cloned the cookiecutter for the projects
-* *1 hour* Modified dissertation template, compiled  
+* *0.5 hours* *Had a meeting with advisor on project scope
+* *7 hour* *Researched the different face detection algorithms avaliable
+           *Installed and played with a MTCNN algorithm
+           *Installed a python library built ontop of DLIB
+           *Started taking notes for literature review
+* *0.5 hour* Set up an empty github repo
 
-## 20 Oct 2019
+## 01 Oct 2020
 
-* *1 hour* meeting with supervisor
-* *2 hours* writing initial version of test harness
+* *3 hour* *Researched more papers and completed notes for my literature review's first draft
+           *Researched into a bias existing within Datasets
+           *Looked at HOG, HAAR, MTCNN and Fast R-CNN as potential algorithms to test
+           
+## 03 Nov 2020
+
+* *3 hour* *Completed literature reviews conclusion and learned about the cascading structure present in the algorithms
+
+## 06 Nov 2020
+
+* *2 hour* *Completed literature review references and citations to other papers
+
+## 07 Nov 2020
+
+* *1 hour* *Had a meeting with supervisor and showed the progress I made
+           *Went over the MTCNN paper to get a better understanding with supervisor
+           
+* *7 hour* *Set up a pytorch implementation of MTCNN on the Google collab enviroment
+           *Set up an implementaion of the Viola Jones algorithm on the Google Collab enviroment
+           *Carried out more research on future algorithms
+         
+
+## 11 Oct 2020
+
+* *4 hour* Researched about the R-CNN family of algorithms
+           Looked into single stage algorithms like YOLO and SSD
+           Looked into diff
+           erent methods of training the models that are used for object detection or face detection
+           
+## 13 Oct 2020
+
+* *4 hour* *Researched how I could train my own models and why MTCNN might allow for this
+           *Set up a 68 point facial landmark algortihm on Google collab that uses the DLIB detector
+           *Now I have 3 algorithms avaliable
+           
+           
+## 14 Oct 2020
+
+* *0.5 hour* *Had a meeting with advisor about progress, discussed researching more algortihms 
+* *7.5 hour* *Set up a Retina Face implementation on Google Collab as my 4th algorithm
+             *Downloaded mendeley to manage my literature
+             *Changed literature review format and referencing style now using mendeley
+             *Added a section of R-CNN and FaceNet and a feasibility section to literature review
+             *Compiled V1 of the literature review
+             
+             
+## 21 Oct 2020
+
+* *0.5 hour* *Had a meeting with advisor about progress, agreed upon the 4 algorithms I had chosen
+* *5.5 hour* *Moved literature review from word to Latex and added graphics
+             *Thought of some experiments I could run and wrote these down
+                          
+## 28 Oct 2020
+
+* *0.5 hour* *Had a meeting with advisor and went over the RetinaFace paper to better understand the pyramid faeture concept
+* *7.5 hour* *Collated a dataset called the 5025 dataset, its made up of creative common photos of represented and under represented people.
+             *Manually annoted the dataset to act as ground truth for my experiments
+             *Created instructions for others to generate ground truth for me
+             *Created a jupyter noteboox to create a dictionary in python that represents the grounf truth values
+             
+             
+## 04 Nov 2020
+
+* *7 hour* *Created methods in each algorithm to extract the data as a dictionary which I could use for comparisons
+           *Executed the 4 algorithms on the 5025 dataset and exported the resulting dictionaries to an evaluation notebook
+           *Created functions to calculate the error difference between my ground truth and the algorithms
+           *Created a function to average this error across the datasets sub groups
+           
+           
+                       
+## 05 Nov 2020
+
+* *1.5 hour* *Created a method to display the algorthims results overlayed onto the same face (excluding the viola jones algorithm)
+             *Fixed the Retina Face and MTCNN dictionary not storing the correct values for the bounding box
+             
+             
+## 06 Nov 2020
+
+* *1 hour* *Had a meeting with supervisor and showed the major progress I had made since last time
+           *Talked about normalising the data values using the distance between the eyes
+           *Showed the current stage of my literature review 
+           
+## 11 Nov 2020
+
+* *0.5 hour* *Had a meeting with supervisor and talked about direction I should take analysis in
+             *Decided to get results to discuss for next week
+             *Set up functions to error results as a percentage 
+             *Created a function to tell me how many cases there are of error about a certain threshold
+             *Recreated RetinaFace dictionary as some of the values were wrong
+             *Created function to generate histograms for each algorthims error distances
+             *Worked on github repo by uploading template files and flling them out with my previous data and artifacts
