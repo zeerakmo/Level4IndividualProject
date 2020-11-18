@@ -119,3 +119,13 @@
              *Created function to generate difference in frequencies of errors aswell as corresponding graphs
              *Generated which face gave the worst and best result for each algortihm
              *Collated my results in an excel file 
+             
+## 18 Nov 2020
+
+* *0.5 hour* *Had a meeting with supervisor and went over the graphs I had created 
+             *Thought about future direction I could take research in
+             *Discussed breaking up histograms into several smaller histograms to compare the bias instead of comparing the algorithms
+* *7.5 hour* *Fixed IoU code to calculate the percentage of overlap correctly
+             *Broke up histogram by specific feature which allowed for some interesting discoveries
+             *Calculated average error differences for all algorithms in their groups
+             *Created histogram for bounding box overlap of the different algorithms in their groups
