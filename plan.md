@@ -26,7 +26,7 @@ I want run all 4 of my algorithms and generate the corresponding dicionaries fro
 * **Week 8**
 I would like to carry out more comparisons of the data I have received and start to create figures and graphs so that next week I can go over them with my advisor and see what direction to take the research and analysis in. I also want to update my github and get it caught up with all the work I have done.
 * **Week 9**
-The plan for this week is to carry on with my experiments and graphs so that I can draw more conlcusions from them. I would like to re-read the retina face paper aswell and start annotating my graphs and desrcibing what I see in a written format so that I can have some real evidence.
+The plan for this week is to carry on with my experiments and graphs so that I can draw more conlcusions from them. I would like to re-read the retina face paper aswell and start annotating my graphs and desrcibing what I see in a written format so that I can have some real evidence. Would also like to redo some of the histograms to use larger sized bins as grouping by single integer doesnt generealise well.
 * **Week 10**
 * **Week 11 [PROJECT WEEK]**
 * **Week 12 [PROJECT WEEK]** Status report submitted.
