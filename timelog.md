@@ -129,3 +129,15 @@
              *Broke up histogram by specific feature which allowed for some interesting discoveries
              *Calculated average error differences for all algorithms in their groups
              *Created histogram for bounding box overlap of the different algorithms in their groups
+             
+## 25 Nov 2020
+
+* *0.5 hour* *Had a meeting with supervisor and went over the new graphics I had broken down, showed him the lack of conclusive evidence
+             *Discussed instead of creating a new dataset to instead resize the current dataset and run the algorithms again to see if thats the reason retinaface's results are skewed
+             *Discussed testing the robustness of my dataset by running the tests over samples of my dataset and find the average difference and using it as a standard deviation metric
+* *7.5 hour* *Created notebook to scale my dataset to 300 width whilst keeping its proportions the same
+             *Reran the different algorithms on my new dataset
+             *Rescaled my ground truth to match the correct scaling of the images
+             *Generated the different figures and graphs and noticed an improvement in my results.         
+         
+          
