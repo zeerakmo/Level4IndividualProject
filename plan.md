@@ -28,6 +28,7 @@ I would like to carry out more comparisons of the data I have received and start
 * **Week 9**
 The plan for this week is to carry on with my experiments and graphs so that I can draw more conlcusions from them. I would like to re-read the retina face paper aswell and start annotating my graphs and desrcibing what I see in a written format so that I can have some real evidence. Would also like to redo some of the histograms to use larger sized bins as grouping by single integer doesnt generealise well.
 * **Week 10**
+This week I plan on working on refining my results more by creating a scaled dataset. I plan on testing my results on different subsets of my dataset so I can test the robustness of my data set and produce an error metric. I want to research into the 4 algorithms so I can understand why it is that their results come out the way they do.
 * **Week 11 [PROJECT WEEK]**
 * **Week 12 [PROJECT WEEK]** Status report submitted.
 
