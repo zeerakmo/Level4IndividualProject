@@ -138,6 +138,30 @@
 * *7.5 hour* *Created notebook to scale my dataset to 300 width whilst keeping its proportions the same
              *Reran the different algorithms on my new dataset
              *Rescaled my ground truth to match the correct scaling of the images
-             *Generated the different figures and graphs and noticed an improvement in my results.         
+             *Generated the different figures and graphs and noticed an improvement in my results.
+             
          
-          
+## 7 Dec 2020
+
+* *6 hour* * Researched into the design of the Viola and Jones algorithm
+           * Looked at the idea of feature extraction and how Viola and Jones manages detection without deep learning
+           * Completed a paper summary of the Viola and Jones paper to assist me when I complete dissertation
+           
+## 8 Dec 2020
+
+* *6 hour* * Researched into the design of the MTCNN algorithm
+           * Looked into reasons why a deep network approach might be related to its poor performance in minorities
+           * Completed a paper summary of the MTCNN paper to assist me when I complete dissertation
+                      
+## 9 Dec 2020
+* *0.5 hour* *Had a meeting with supervisor and discussed plans for the 2 week period
+             *Discussed completing a report which would display my graphs and a paragraph under each explaining what was being shown so that when I move onto the next stage of experiments I know what I have done previously
+             *Discussed cleaning up code into a single solid notebook which would display all my graphs at ease.
+             
+* *6 hour* * Researched into the design of the DLIB algorithm
+           * Completed a paper summary of the DLIB paper to assist me when I complete dissertation  
+           
+## 11 Dec 2020
+
+* *7 hour* * Cleaned up my comparison notebook code by creating a new evaluation notebook with a consistent and understandable structure
+           * Completed standard deviation metric to compare to average of normal dataset aswell. This let me show how robust my dataset was           
