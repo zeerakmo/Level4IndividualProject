@@ -164,4 +164,11 @@
 ## 11 Dec 2020
 
 * *7 hour* * Cleaned up my comparison notebook code by creating a new evaluation notebook with a consistent and understandable structure
-           * Completed standard deviation metric to compare to average of normal dataset aswell. This let me show how robust my dataset was           
+           * Completed standard deviation metric to compare to average of normal dataset aswell. This let me show how robust my dataset was 
+           
+## 13 Dec 2020
+
+* *6 hour* * Cleaned up the separate algortihm notebooks 
+           * Updated the repository with the new annotation files for the 300 width photos
+           
+
