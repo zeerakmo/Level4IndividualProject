@@ -30,7 +30,9 @@ The plan for this week is to carry on with my experiments and graphs so that I c
 * **Week 10**
 This week I plan on working on refining my results more by creating a scaled dataset. I plan on testing my results on different subsets of my dataset so I can test the robustness of my data set and produce an error metric. I want to research into the 4 algorithms so I can understand why it is that their results come out the way they do.
 * **Week 11 [PROJECT WEEK]**
+This week I plan on researching my 4 algorithms and completing paper summaries on them. I want to also look into more specific reasons why biased might exist. I would like to complete some research on the different datasets as well as I plan on including this in my disseration
 * **Week 12 [PROJECT WEEK]** Status report submitted.
+I plan on cleaning up my evaluation code to produce the specific graphs that are required, I also plan on cleaning up the code for the specific algorithms. I want to create a report which contains my figures and corresponding explanations of what is seen on them. 
 
 ## Winter break
 
