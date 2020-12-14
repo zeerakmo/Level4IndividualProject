@@ -171,4 +171,10 @@
 * *6 hour* * Cleaned up the separate algortihm notebooks 
            * Updated the repository with the new annotation files for the 300 width photos
            
+## 14 Dec 2020
+
+* *6 hour* * Created a separate resized annoatations file so I could remove some of the uneccesary complexity from the evaluation file itself
+           * Created an excel spreadsheet containing all my figures from my evulation notebook
+           * Created a corresponding file with descriptions of what the figures showed
+           
 
