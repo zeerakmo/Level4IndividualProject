@@ -209,4 +209,8 @@
   * Created an excel spreadsheet containing all my figures from my evulation notebook
   * Created a corresponding file with descriptions of what the figures showed
            
+## 15 Dec 2020
 
+* *6 hour* 
+  * Completed the status report first draft
+  * Continued work on report file with descriptions
