@@ -214,3 +214,17 @@
 * *6 hour* 
   * Completed the status report first draft
   * Continued work on report file with descriptions
+  
+## 16 Dec 2020
+
+* *6 hour* 
+  * Continued to work on the report file
+  * Researched about the datasets each algorithm I am using is trained on 
+  
+## 17 Dec 2020
+
+* *8 hour* 
+  * Continued to work on the report file
+  * Looked at images that caused some of the errors which were at the extremes, and what these images shared in terms of features
+  * Added this into my Evaluation file roughly
+  * Completed the report file 
