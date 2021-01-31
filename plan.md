@@ -1,6 +1,6 @@
 # Plan
 
-* PROJECT TITLE
+* The sensicity
 * YOUR NAME
 * STUDENT ID
 * SUPERVISOR NAME
@@ -39,8 +39,11 @@ I plan on cleaning up my evaluation code to produce the specific graphs that are
 ## Spring Semester
 
 * **Week 13**
+This week I plan on researching into what specific facial features cause the MTCNN algorithm to perform worst on under represented faces than represented faces
 * **Week 14**
+This week I plan on continuing the research on the MTCNN algorithm and how changing the brightness and altering the images affects the results of the algorithm on underrepresented faces.
 * **Week 15**
+This week I plan on calculating the brightness for the photos and the contrast within the photos to see the link between these characteristics and performance
 * **Week 16**
 * **Week 17**
 * **Week 19**
