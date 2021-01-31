@@ -221,10 +221,25 @@
   * Continued to work on the report file
   * Researched about the datasets each algorithm I am using is trained on 
   
-## 17 Dec 2020
+## 15 Jan 2021
 
 * *8 hour* 
-  * Continued to work on the report file
-  * Looked at images that caused some of the errors which were at the extremes, and what these images shared in terms of features
-  * Added this into my Evaluation file roughly
-  * Completed the report file 
+  * Altered the images to see if I could get the MTCNN detector to perform better
+  * Tested these and compared against the orignal results in the evaluation file
+
+  
+## 22 Dec 2020
+
+* *8 hour* 
+  * Altered more images and realised that different alterations affect each image differently
+  * Updated the evaluation file with more altered images results
+  * Had meeting with supervisor and discussed next steps on how to cover all bases of research
+  
+  
+## 29 Dec 2020
+
+* *8 hour* 
+  * Realised by changing the brightness of every image was more succesful than adding on contrasting lines and it shows that generally brighter faces perform better
+  * Tested this hypothesis on all images with face errors more than 7% for MTCNN
+  * Aggregrated results in spreadsheet to compare and contrast with
+  
