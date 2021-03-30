@@ -45,11 +45,18 @@ This week I plan on continuing the research on the MTCNN algorithm and how chang
 * **Week 15**
 This week I plan on calculating the brightness for the photos and the contrast within the photos to see the link between these characteristics and performance
 * **Week 16**
+This week I plan on working on the changing aspects of the dataset to get more consistent results from my experiments
 * **Week 17**
+This week I plan on starting the dissertation methedology, results and discussion section
 * **Week 19**
+This week I plan on working on the algorithms background information section and continue working on the discussion section
 * **Week 20**
+This week I plan on working on the introduction and background sections aswell as continue the discussion section
 * **Week 21**
+This week I plan on working on the dataset section and fixing the methedology section to update it so that it reflects the research question
 * **Week 22**
+This week I plan on finishing the first draft
 * **Week 23 [TERM ENDS]**
+Plan on fixing dissertation based on feedback from 1st Draft
 * **Week 24** Dissertation submission deadline and presentations.
 
