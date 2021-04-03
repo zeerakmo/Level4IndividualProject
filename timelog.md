@@ -374,6 +374,40 @@
   * Worked on changing background section first paragraph to help describe facial detection easier
   * Changed discussion section content to flow better aswell as relate to the research question better
   
+## 31 Mar 2021
+
+* *8 hour* 
+  * Started at the introduction and backgrond and started to add in more information for feature based methods and image based methods
+  * Altered disucssion to do with dataset bias
+  * Changed introduction to explain the face detection better
+  * Changed headings to make more sense and separated image sizes to look neater
 
 
+## 1 Mar 2021
 
+* *8 hour* 
+  * Altered background section on image based methods
+  * Altered discussion for HOG, MTCNN and RetinaFace to better relate to results and be honest
+  * Wrote discussion to do with research question
+  * Changed algorithms section to explain the Viola-Jones algorithm correctly
+  * Changed algorhtims section to flow more coherent
+ 
+
+## 2 Mar 2021
+
+* *8 hour* 
+  * Fixed evaluation section and background section with more detail
+  * Added in information about each metric coherently
+  * Added new section into discussion to talk about dataset bias and introduce it better
+  * Changed conclusion and research question answer to fit with the updated discussion
+  * Combined sections in discussion to talk about sampling bias and benchmark bias separately
+
+## 3 Mar 2021
+
+* *8 hour* 
+  * Added limitations section
+  * Resized graphs and changed their locations
+  * Cleaned up the results section to read better
+  * Updated background with more information for feature based algorithms
+  * Added in all extra content required
+  * Added in uncertainty values to tables
