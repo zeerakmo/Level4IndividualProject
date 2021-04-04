@@ -411,3 +411,9 @@
   * Updated background with more information for feature based algorithms
   * Added in all extra content required
   * Added in uncertainty values to tables
+
+## 4 Mar 2021
+
+* *8 hour* 
+  * Created presentation for project
+  * Recorded presentation
