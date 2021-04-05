@@ -1,3 +1,4 @@
+
 # Timelog
 
 * The Sensitivity of Facial Analysis Algorithms to Race and Gender
@@ -5,12 +6,6 @@
 * 2314940z
 * Nicolas Pugeault
 
-## Guidance
-
-* This file contains the time log for your project. It will be submitted along with your final dissertation.
-* **YOU MUST KEEP THIS UP TO DATE AND UNDER VERSION CONTROL.**
-* This timelog should be filled out honestly, regularly (daily) and accurately. It is for *your* benefit.
-* Follow the structure provided, grouping time by weeks.  Quantise time to the half hour.
 
 ## Week 1
 
@@ -19,7 +14,7 @@
 * *0.5 hours* 
   *  Had a meeting with advisor on project scope
 * *7 hour* 
-  *  Researched the different face detection algorithms avaliable
+  *  Researched the different face detection algorithms available
   *  Installed and played with a MTCNN algorithm
   *  Installed a python library built ontop of DLIB
   *  Started taking notes for literature review
@@ -50,8 +45,8 @@
   *  Went over the MTCNN paper to get a better understanding with supervisor
            
 * *7 hour* 
-  *  Set up a pytorch implementation of MTCNN on the Google collab enviroment
-  *  Set up an implementaion of the Viola Jones algorithm on the Google Collab enviroment
+  *  Set up a pytorch implementation of MTCNN on the Google collab environment
+  *  Set up an implementation of the Viola Jones algorithm on the Google Collab environment
   *  Carried out more research on future algorithms
          
 
@@ -67,14 +62,14 @@
 
 * *4 hour* 
   *  Researched how I could train my own models and why MTCNN might allow for this
-  *  Set up a 68 point facial landmark algortihm on Google collab that uses the DLIB detector
-  *  Now I have 3 algorithms avaliable
+  *  Set up a 68 point facial landmark algorithm on Google collab that uses the DLIB detector
+  *  Now I have 3 algorithms available
            
            
 ## 14 Oct 2020
 
 * *0.5 hour* 
-  *  Had a meeting with advisor about progress, discussed researching more algortihms 
+  *  Had a meeting with advisor about progress, discussed researching more algorithms 
 * *7.5 hour* 
   *  Set up a Retina Face implementation on Google Collab as my 4th algorithm
   *  Downloaded mendeley to manage my literature
@@ -94,7 +89,7 @@
 ## 28 Oct 2020
 
 * *0.5 hour* 
-  *  Had a meeting with advisor and went over the RetinaFace paper to better understand the pyramid faeture concept
+  *  Had a meeting with advisor and went over the RetinaFace paper to better understand the pyramid feature concept
 * *7.5 hour* 
   *  Collated a dataset called the 5025 dataset, its made up of creative common photos of represented and under represented people.
   *  Manually annoted the dataset to act as ground truth for my experiments
@@ -115,7 +110,7 @@
 ## 05 Nov 2020
 
 * *1.5 hour* 
-  *  Created a method to display the algorthims results overlayed onto the same face (excluding the viola jones algorithm)
+  *  Created a method to display the algorithms results overlayed onto the same face (excluding the viola jones algorithm)
   *  Fixed the Retina Face and MTCNN dictionary not storing the correct values for the bounding box
              
              
@@ -135,10 +130,10 @@
   *  Set up functions to error results as a percentage 
   *  Created a function to tell me how many cases there are of error about a certain threshold
   *  Recreated RetinaFace dictionary as some of the values were wrong
-  *  Created function to generate histograms for each algorthims error distances
-  *  Worked on github repo by uploading template files and flling them out with my previous data and artifacts
-  *  Created function to generate difference in frequencies of errors aswell as corresponding graphs
-  *  Generated which face gave the worst and best result for each algortihm
+  *  Created function to generate histograms for each algorithms error distances
+  *  Worked on github repo by uploading template files and filling them out with my previous data and artifacts
+  *  Created function to generate difference in frequencies of errors as well as corresponding graphs
+  *  Generated which face gave the worst and best result for each algorithm
   *  Collated my results in an excel file 
              
 ## 18 Nov 2020
@@ -199,14 +194,14 @@
 ## 13 Dec 2020
 
 * *6 hour* 
-  * Cleaned up the separate algortihm notebooks 
+  * Cleaned up the separate algorithm notebooks 
   * Updated the repository with the new annotation files for the 300 width photos
            
 ## 14 Dec 2020
 
 * *6 hour* 
-  * Created a separate resized annoatations file so I could remove some of the uneccesary complexity from the evaluation file itself
-  * Created an excel spreadsheet containing all my figures from my evulation notebook
+  * Created a separate resized annotations file so I could remove some of the unnecessary complexity from the evaluation file itself
+  * Created an excel spreadsheet containing all my figures from my evaluation notebook
   * Created a corresponding file with descriptions of what the figures showed
            
 ## 15 Dec 2020
@@ -225,7 +220,7 @@
 
 * *8 hour* 
   * Altered the images to see if I could get the MTCNN detector to perform better
-  * Tested these and compared against the orignal results in the evaluation file
+  * Tested these and compared against the original results in the evaluation file
 
   
 ## 22 Dec 2020
@@ -239,9 +234,9 @@
 ## 29 Dec 2020
 
 * *8 hour* 
-  * Realised by changing the brightness of every image was more succesful than adding on contrasting lines and it shows that generally brighter faces perform better
+  * Realised by changing the brightness of every image was more successful than adding on contrasting lines and it shows that generally brighter faces perform better
   * Tested this hypothesis on all images with face errors more than 7% for MTCNN
-  * Aggregrated results in spreadsheet to compare and contrast with
+  * Aggregated results in spreadsheet to compare and contrast with
   
 ## 15 Jan 2021
 
@@ -264,14 +259,14 @@
 
 * *8 hour* 
   * Had meeting with supervisor and showed updated results, discussed holding off on any extra experiments and instead starting to write dissertation
-  * Worked on fixing up graphs and figures for disseration and researched method to write it
+  * Worked on fixing up graphs and figures for dissertation and researched method to write it
   * Cleaned up results of changing contrast into own tables 
 
 ## 4 Feb 2021
 
 * *8 hour* 
   * Worked on dissertation main sections of methodology, results and discussion
-  * Completed methodolgy section and results
+  * Completed methodology section and results
 ## 11 Feb 2021
 
 * *8 hour* 
@@ -281,14 +276,14 @@
 ## 15 Feb 2021
 
 * *8 hour* 
-  * Worked on background section of report and started explaning 4 algorithms
+  * Worked on background section of report and started explaining 4 algorithms
   * Continued work on discussion section
 
 ## 19 Feb 2021
 
 * *8 hour* 
   * Had a meeting with supervisor and showed status of report sections
-  * Continued to work on background and discussion section aswell as start the introduction section
+  * Continued to work on background and discussion section as well as start the introduction section
 
 
 ## 22 Feb 2021
@@ -309,7 +304,7 @@
 
 * *8 hour* 
   * Ran through report and updated where the error was present and altered discussion slightly
-  * Fixed the implementation section and started conlcusion
+  * Fixed the implementation section and started conclusion
  
 ## 1 Mar 2021
 
@@ -322,7 +317,7 @@
 ## 3 Mar 2021
 
 * *5 hour* 
-  * Added referecnces into the report and figures from other sources
+  * Added references into the report and figures from other sources
   * Cleaned up background section to relate better to research question
 
 
@@ -335,9 +330,9 @@
 ## 10 Mar 2021
 
 * *7 hour* 
-  * Refined report sections and uodated dataset bias section to include recent findins from the diversity in faces paper
+  * Refined report sections and updated dataset bias section to include recent findings from the diversity in faces paper
   * Removed section describing old implementations
-  * Updated methedology to describe metrics
+  * Updated methodology to describe metrics
 
 
 ## 15 Mar 2021
@@ -345,7 +340,7 @@
 * *8 hour* 
   * Had meeting with supervisor and showed report, got positive feedback on structure
   * Started to clean up references properly and relate them to content
-  * Cleaned up english errors in report to make it read better
+  * Cleaned up English errors in report to make it read better
   * Added in sections describing each chapter
 
 
@@ -364,21 +359,21 @@
   * Altered tables in report to be actual latex tables instead of images and cleaned formatting of figures
 
 ## 30 Mar 2021
-
+* *0.5 hour*
+	* Had meeting with supervisor and discussed changed and submitted a real 1st draft that would actually get proper written feedback
 * *8 hour* 
   * Refactored entire report
   * Moved the dataset bias into the discussion section
   * Moved algorithms to background section
-  * Changed methedology to evalutation because the paper made more sense
-  * Had meeting with supervisor and discussed changed and submitted a real 1st draft that would actually get proper written feedback
+  * Changed methodology to evaluation because the paper made more sense
   * Worked on changing background section first paragraph to help describe facial detection easier
   * Changed discussion section content to flow better aswell as relate to the research question better
   
 ## 31 Mar 2021
 
 * *8 hour* 
-  * Started at the introduction and backgrond and started to add in more information for feature based methods and image based methods
-  * Altered disucssion to do with dataset bias
+  * Started at the introduction and background and started to add in more information for feature based methods and image based methods
+  * Altered discussion to do with dataset bias
   * Changed introduction to explain the face detection better
   * Changed headings to make more sense and separated image sizes to look neater
 
@@ -390,7 +385,7 @@
   * Altered discussion for HOG, MTCNN and RetinaFace to better relate to results and be honest
   * Wrote discussion to do with research question
   * Changed algorithms section to explain the Viola-Jones algorithm correctly
-  * Changed algorhtims section to flow more coherent
+  * Changed algorithms section to flow more coherent
  
 
 ## 2 Mar 2021
@@ -417,3 +412,12 @@
 * *8 hour* 
   * Created presentation for project
   * Recorded presentation
+  
+## 5 Mar 2021
+
+* *8 hour* 
+  * Finished off compiling the presentation video
+  * Worked on the code and cleaned up code where necessary
+  * Updated Readme's in repo and removed unnecessary files
+  * Added manual to understand how to run code
+
