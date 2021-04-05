@@ -28,17 +28,17 @@
   *  Researched into a bias existing within Datasets
   *  Looked at HOG, HAAR, MTCNN and Fast R-CNN as potential algorithms to test
            
-## 03 Nov 2020
+## 03 Oct 2020
 
 * *3 hour* 
   *  Completed literature reviews conclusion and learned about the cascading structure present in the algorithms
 
-## 06 Nov 2020
+## 06 Oct 2020
 
 * *2 hour* 
   *  Completed literature review references and citations to other papers
 
-## 07 Nov 2020
+## 07 Oct 2020
 
 * *1 hour* 
   *  Had a meeting with supervisor and showed the progress I made
@@ -115,9 +115,9 @@
              
              
 ## 06 Nov 2020
-
-* *1 hour* 
+* *0.5 hours* 
   *  Had a meeting with supervisor and showed the major progress I had made since last time
+* *1 hours* 
   *  Talked about normalising the data values using the distance between the eyes
   *  Showed the current stage of my literature review 
            
@@ -240,8 +240,9 @@
   
 ## 15 Jan 2021
 
-* *8 hour* 
+* *0.5 hour* 
   * Had a meeting with supervisor in which we discussed plan for this semester and room for project expansion
+* *8 hour* 
   * Showed test results and concluded that more work was required
 
 ## 18 Jan 2021
@@ -251,14 +252,16 @@
   * Changed contrast of entire image instead of just adding lines 
 ## 22 Jan 2021
 
-* *7 hour* 
+* *0.5 hour* 
   * Had meeting with supervisor and discussed blockers 
+* *0.6 hour*   
   * Showed results of changing contrast of entire image and decided to pursue this experiment
 
 ## 29 Jan 2021
 
-* *8 hour* 
+* *0.5 hour* 
   * Had meeting with supervisor and showed updated results, discussed holding off on any extra experiments and instead starting to write dissertation
+* *7 hour*   
   * Worked on fixing up graphs and figures for dissertation and researched method to write it
   * Cleaned up results of changing contrast into own tables 
 
@@ -281,8 +284,9 @@
 
 ## 19 Feb 2021
 
-* *8 hour* 
+* *0.5 hour* 
   * Had a meeting with supervisor and showed status of report sections
+* *7.5 hour*   
   * Continued to work on background and discussion section as well as start the introduction section
 
 
@@ -294,8 +298,9 @@
 
 ## 26 Feb 2021
 
-* *8 hour* 
+* *0.5 hour* 
   * Had a meeting with supervisor and asked for feedback on structure, realised I should decrease the size of chapters
+* *7.5 hour* 
   * Completed dataset section and started writing the implementation section
   * Whilst writing implementation section, found a small error in code which meant I had to recreate my figures
 
@@ -337,8 +342,9 @@
 
 ## 15 Mar 2021
 
-* *8 hour* 
+* *0.5 hour* 
   * Had meeting with supervisor and showed report, got positive feedback on structure
+* *6 hour* 
   * Started to clean up references properly and relate them to content
   * Cleaned up English errors in report to make it read better
   * Added in sections describing each chapter
