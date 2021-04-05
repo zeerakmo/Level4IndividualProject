@@ -221,10 +221,199 @@
   * Continued to work on the report file
   * Researched about the datasets each algorithm I am using is trained on 
   
-## 17 Dec 2020
+## 15 Jan 2021
 
 * *8 hour* 
-  * Continued to work on the report file
-  * Looked at images that caused some of the errors which were at the extremes, and what these images shared in terms of features
-  * Added this into my Evaluation file roughly
-  * Completed the report file 
+  * Altered the images to see if I could get the MTCNN detector to perform better
+  * Tested these and compared against the orignal results in the evaluation file
+
+  
+## 22 Dec 2020
+
+* *8 hour* 
+  * Altered more images and realised that different alterations affect each image differently
+  * Updated the evaluation file with more altered images results
+  * Had meeting with supervisor and discussed next steps on how to cover all bases of research
+  
+  
+## 29 Dec 2020
+
+* *8 hour* 
+  * Realised by changing the brightness of every image was more succesful than adding on contrasting lines and it shows that generally brighter faces perform better
+  * Tested this hypothesis on all images with face errors more than 7% for MTCNN
+  * Aggregrated results in spreadsheet to compare and contrast with
+  
+## 15 Jan 2021
+
+* *8 hour* 
+  * Had a meeting with supervisor in which we discussed plan for this semester and room for project expansion
+  * Showed test results and concluded that more work was required
+
+## 18 Jan 2021
+
+* *4 hour* 
+  * Worked on new methods of changing images such that they worked with my research question
+  * Changed contrast of entire image instead of just adding lines 
+## 22 Jan 2021
+
+* *7 hour* 
+  * Had meeting with supervisor and discussed blockers 
+  * Showed results of changing contrast of entire image and decided to pursue this experiment
+
+## 29 Jan 2021
+
+* *8 hour* 
+  * Had meeting with supervisor and showed updated results, discussed holding off on any extra experiments and instead starting to write dissertation
+  * Worked on fixing up graphs and figures for disseration and researched method to write it
+  * Cleaned up results of changing contrast into own tables 
+
+## 4 Feb 2021
+
+* *8 hour* 
+  * Worked on dissertation main sections of methodology, results and discussion
+  * Completed methodolgy section and results
+## 11 Feb 2021
+
+* *8 hour* 
+  * Started to work on discussion section and got a chunk of the analysis completed although plenty of space for refinement
+  * Continued research into the algorithms
+
+## 15 Feb 2021
+
+* *8 hour* 
+  * Worked on background section of report and started explaning 4 algorithms
+  * Continued work on discussion section
+
+## 19 Feb 2021
+
+* *8 hour* 
+  * Had a meeting with supervisor and showed status of report sections
+  * Continued to work on background and discussion section aswell as start the introduction section
+
+
+## 22 Feb 2021
+
+* *4 hour* 
+  * Worked on background section and discussion section for algorithms and updated structure of the report
+
+
+## 26 Feb 2021
+
+* *8 hour* 
+  * Had a meeting with supervisor and asked for feedback on structure, realised I should decrease the size of chapters
+  * Completed dataset section and started writing the implementation section
+  * Whilst writing implementation section, found a small error in code which meant I had to recreate my figures
+
+
+## 28 Feb 2021
+
+* *8 hour* 
+  * Ran through report and updated where the error was present and altered discussion slightly
+  * Fixed the implementation section and started conlcusion
+ 
+## 1 Mar 2021
+
+* *8 hour* 
+  * Started to work on refining entire report sections and adding more information so I could have a first draft ready by mid march
+  * Redid methodology section and cleaned up discussion
+  * Redid sections of the report to be in line with the research question
+
+
+## 3 Mar 2021
+
+* *5 hour* 
+  * Added referecnces into the report and figures from other sources
+  * Cleaned up background section to relate better to research question
+
+
+## 5 Mar 2021
+
+* *6 hour* 
+  * Redid photos and created new figures for report and sourced everything correctly
+  * Changed conclusion section to contain 3 sections which included research question answer
+
+## 10 Mar 2021
+
+* *7 hour* 
+  * Refined report sections and uodated dataset bias section to include recent findins from the diversity in faces paper
+  * Removed section describing old implementations
+  * Updated methedology to describe metrics
+
+
+## 15 Mar 2021
+
+* *8 hour* 
+  * Had meeting with supervisor and showed report, got positive feedback on structure
+  * Started to clean up references properly and relate them to content
+  * Cleaned up english errors in report to make it read better
+  * Added in sections describing each chapter
+
+
+## 28 Mar 2021
+
+* *7 hour* 
+  * Worked on referencing
+  * Fixed background section and implementation section to relate better and be more coherent
+
+
+## 29 Mar 2021
+
+* *8 hour* 
+  * Added in more analysis into discussion section of the report so that it was easier to read
+  * Updated the background section with emphasis on helping reader understand structure of algorithms
+  * Altered tables in report to be actual latex tables instead of images and cleaned formatting of figures
+
+## 30 Mar 2021
+
+* *8 hour* 
+  * Refactored entire report
+  * Moved the dataset bias into the discussion section
+  * Moved algorithms to background section
+  * Changed methedology to evalutation because the paper made more sense
+  * Had meeting with supervisor and discussed changed and submitted a real 1st draft that would actually get proper written feedback
+  * Worked on changing background section first paragraph to help describe facial detection easier
+  * Changed discussion section content to flow better aswell as relate to the research question better
+  
+## 31 Mar 2021
+
+* *8 hour* 
+  * Started at the introduction and backgrond and started to add in more information for feature based methods and image based methods
+  * Altered disucssion to do with dataset bias
+  * Changed introduction to explain the face detection better
+  * Changed headings to make more sense and separated image sizes to look neater
+
+
+## 1 Mar 2021
+
+* *8 hour* 
+  * Altered background section on image based methods
+  * Altered discussion for HOG, MTCNN and RetinaFace to better relate to results and be honest
+  * Wrote discussion to do with research question
+  * Changed algorithms section to explain the Viola-Jones algorithm correctly
+  * Changed algorhtims section to flow more coherent
+ 
+
+## 2 Mar 2021
+
+* *8 hour* 
+  * Fixed evaluation section and background section with more detail
+  * Added in information about each metric coherently
+  * Added new section into discussion to talk about dataset bias and introduce it better
+  * Changed conclusion and research question answer to fit with the updated discussion
+  * Combined sections in discussion to talk about sampling bias and benchmark bias separately
+
+## 3 Mar 2021
+
+* *8 hour* 
+  * Added limitations section
+  * Resized graphs and changed their locations
+  * Cleaned up the results section to read better
+  * Updated background with more information for feature based algorithms
+  * Added in all extra content required
+  * Added in uncertainty values to tables
+
+## 4 Mar 2021
+
+* *8 hour* 
+  * Created presentation for project
+  * Recorded presentation

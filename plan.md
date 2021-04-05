@@ -1,6 +1,6 @@
 # Plan
 
-* PROJECT TITLE
+* The sensicity
 * YOUR NAME
 * STUDENT ID
 * SUPERVISOR NAME
@@ -39,14 +39,24 @@ I plan on cleaning up my evaluation code to produce the specific graphs that are
 ## Spring Semester
 
 * **Week 13**
+This week I plan on researching into what specific facial features cause the MTCNN algorithm to perform worst on under represented faces than represented faces
 * **Week 14**
+This week I plan on continuing the research on the MTCNN algorithm and how changing the brightness and altering the images affects the results of the algorithm on underrepresented faces.
 * **Week 15**
+This week I plan on calculating the brightness for the photos and the contrast within the photos to see the link between these characteristics and performance
 * **Week 16**
+This week I plan on working on the changing aspects of the dataset to get more consistent results from my experiments
 * **Week 17**
+This week I plan on starting the dissertation methedology, results and discussion section
 * **Week 19**
+This week I plan on working on the algorithms background information section and continue working on the discussion section
 * **Week 20**
+This week I plan on working on the introduction and background sections aswell as continue the discussion section
 * **Week 21**
+This week I plan on working on the dataset section and fixing the methedology section to update it so that it reflects the research question
 * **Week 22**
+This week I plan on finishing the first draft
 * **Week 23 [TERM ENDS]**
+Plan on fixing dissertation based on feedback from 1st Draft
 * **Week 24** Dissertation submission deadline and presentations.
 
