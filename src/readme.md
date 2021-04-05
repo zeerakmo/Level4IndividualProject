@@ -1,41 +1,40 @@
 # Readme
 
-Put a brief description of your code here. This should at least describe the file structure.
+The code created for this project was created on the Google collab enviroment. It mainly consists of the 4 face detection algorithms and a single evaluation file used for the experiments and to create the figures.
 
-## Build instructions
+ - ViolaJones.ipynb
+	 - contains the Viola-Jones algorithm implementation
+ - DLIB.ipynb
+	 - contains the HOG face detector and 68 point landmark predictor implementation
+ - MTCNN.ipynb
+	 - contains the MTCNN implementation
+ - RetinaFace.ipynb
+	 - contains the RetinaFace implementation
+ - Evaluation.ipynb
+	 - aggregates the output of the 4 algorithms
+	 - generates figures and runs experiments
 
-**You must** include the instructions necessary to build and deploy this project successfully. If appropriate, also include 
-instructions to run automated tests. 
+## Instructions
+
 
 ### Requirements
 
-List the all of the pre-requisites software required to set up your project (e.g. compilers, packages, libraries, OS, hardware)
+The project was created using the cloud based Python notebook through Google Collab. Each notebook is intended to be used in this environment. Therefore to run any of the notebook files, open them in Google Collab.
 
-For example:
+### How to run
+To run evaluation file on pre-existing results then:
 
-* Python 3.7
-* Packages: listed in `requirements.txt` 
-* Tested on Windows 10
+ - Open evaluation file and upload files into the structure described in the file.
+	 - These files have all been pre-created and can be taken from the [JSON Resized folder](https://github.com/zeerakmo/Level4IndividualProject/tree/master/data/processed/json_resized). This contains the algorithms results on the [5025 resized dataset](https://github.com/zeerakmo/Level4IndividualProject/tree/master/data/dataset5025/5025%20Dataset%20Resized).
 
-or another example:
+To run the algorithms and evalute your own results
+ - Open the 4 algorithms implementations in Google Collab
+ - Run through each algorithms notebook using the file structure described at the top of each notebook
+	 - This will involve uploading the [5025 resized dataset](https://github.com/zeerakmo/Level4IndividualProject/tree/master/data/dataset5025/5025%20Dataset%20Resized)  
+	 - Running the detectors and predictors
+	 - Outputting the resulting coordinates in JSON files
+ - Open the evaluation notebook in Google Collab and follow the file structure described at the top of the notebook	
+	 - This will involve uploading the 4 JSON files which contain the results of the algorithms as well, as the [ground truth coordinate file](https://github.com/zeerakmo/Level4IndividualProject/blob/master/data/processed/json_resized/faces_annotated_resized.json)
+ - Run through the notebook to generate each figure and experiment.
 
-* Requires Raspberry Pi 3 
-* a Linux host machine with the `arm-none-eabi` toolchain (at least version `x.xx`) installed
-* a working LuaJIT installation > 2.1.0
-
-### Build steps
-
-List the steps required to build software. 
-
-Hopefully something simple like `pip install -e .` or `make` or `cd build; cmake ..`. In
-some cases you may have much more involved setup required.
-
-### Test steps
-
-List steps needed to show your software works. This might be running a test suite, or just starting the program; but something that could be used to verify your code is working correctly.
-
-Examples:
-
-* Run automated tests by running `pytest`
-* Start the software by running `bin/editor.exe` and opening the file `examples/example_01.bin`
-
+For more detailed instructions on how to run the notebooks look towards the manual.md file.
