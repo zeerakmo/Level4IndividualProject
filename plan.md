@@ -57,5 +57,5 @@ This week I plan on finishing the first draft
 * **Week 23 [TERM ENDS]**
 Plan on fixing dissertation based on feedback from 1st Draft
 * **Week 24** 
-* Plan on working on presentation and completing that first, then I will work on code and implementation, finally I will spend the rest of the time working on dissertation
+Plan on working on presentation and completing that first, then I will work on code and implementation, finally I will spend the rest of the time working on dissertation
 
