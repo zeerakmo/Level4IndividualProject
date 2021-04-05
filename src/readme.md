@@ -12,7 +12,9 @@ The code created for this project was created on the Google collab enviroment. I
 	 - contains the RetinaFace implementation
  - Evaluation.ipynb
 	 - aggregates the output of the 4 algorithms
-	 - generates figures and runs experiments
+	 - generates figures and runs experiments	
+ - manual.md
+ 	 - contains more detailed instructions
 
 ## Instructions
 
