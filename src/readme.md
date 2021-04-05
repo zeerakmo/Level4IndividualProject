@@ -37,4 +37,4 @@ To run the algorithms and evalute your own results
 	 - This will involve uploading the 4 JSON files which contain the results of the algorithms as well, as the [ground truth coordinate file](https://github.com/zeerakmo/Level4IndividualProject/blob/master/data/processed/json_resized/faces_annotated_resized.json)
  - Run through the notebook to generate each figure and experiment.
 
-For more detailed instructions on how to run the notebooks look towards the manual.md file.
+For more detailed instructions on how to run the notebooks look towards the [manual.md](https://github.com/zeerakmo/Level4IndividualProject/blob/master/src/manual.md) file.
