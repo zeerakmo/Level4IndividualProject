@@ -1,26 +1,35 @@
-## Data
-Keep your data (e.g. from evaluations here)
 
+# Data
+## dataset5025
+This file contains the novel 5025 dataset, with its original and resized version. It also contains the plan to allow for user annotation of the dataset
 
-* If you involved human subjects in any form, you will require ethical permission.
-    * Keep records of all items related to ethics in `data/ethics`. There are templates for scripts, guidance provided.
-    * **You must have scanned PDFs of signed checklists in this folder**, or PDFs of ethics confirmations from other sources
-    * Ensure you remain GDPR compliant. In general:
-        * Never collect personally identifiable information if at all possible. 
-        * Pseudonymise identifiers for subjects. 
-        * Use coarse demographic values unless you need specific information (for example, if you need age ranges, collect ranges, not specific ages)
-        * Ensure you have explicit consent for the storage and use of data from human subjects
-        * DO NOT STORE PERSONALLY IDENTIFIABLE INFORMATION ON REMOTE SERVERS (no Dropbox, Github, etc.)
+ - 5025 Dataset
+	 - This contains the original images collated from the internet for the dataset
+ - 5025 Dataset Resized
+	 - This contains the resized images that were use for the experiments
+ - Altered Contrast Images
+	 - This contains the subset of images that were altered in contrast for the MTCNN experiments
+ - Instructions.pdf
+	 - This contains instructions on how to manually annotate the dataset
+ - labels5025.txt
+	 - This is supplementary content describing the labels for the annotation process
 
-* Keep a written description of the data, what is contained, and how it was captured in `data/readme.md`
-* Record all raw data as an immutable store. **Never modify captured data.** 
-    * Keep this under `data/raw`
-    * This could be logs, questionnaire responses, computation results
+## notebooks
+Contains supplementary notebooks that were used to process the images and raw data
 
-* Write scripts to produced processed data from these (e.g. tidy dataframes, excel sheets, csv files, HDF5 files, sqlite databases)
-* Write scripts that process these into results, visualisations, tables that you include in your project.
-* If you use Jupyter/RStudio notebooks, place these in `data/notebooks` and name them carefully (not "Untitled1", "Untitled2").
+ - Resize.ipynb
+	 - Notebook used to resize every image in the dataset
+ - create_annotation_dict.ipynb
+	 - Notebook used to put raw ground truth into standard form for the Evaluation notebook
 
-* You may need to remove the `data/` folder from version control if the data size is too large or you are bound by confidentiality.
-* If you do so **make sure you have good backups**
+## processed
+Contains the JSON annotation files outputted by the algorithms as well as the ground truth annotations in the JSON format
+
+ - json
+	 - Contains the results for each algorithm on the original dataset
+ - json_resized, along with the ground truth
+	 - Contains the results for each algorithm on the resized dataset, along with the ground truth
+
+## raw
+Contains the raw CSV data produced when creating the ground truth annotations
 
