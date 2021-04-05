@@ -1,11 +1,9 @@
 # Plan
 
-* The sensicity
-* YOUR NAME
-* STUDENT ID
-* SUPERVISOR NAME
-
-Week-by-week plan for the whole project. Update this as you go along.
+* The Sensitivity of Facial Analysis Algorithms to Race and Gender
+* Mohammed Zeerak
+* 2314940z
+* Nicolas Pugeault
 
 ## Winter semester
 
@@ -58,5 +56,6 @@ This week I plan on working on the dataset section and fixing the methedology se
 This week I plan on finishing the first draft
 * **Week 23 [TERM ENDS]**
 Plan on fixing dissertation based on feedback from 1st Draft
-* **Week 24** Dissertation submission deadline and presentations.
+* **Week 24** 
+* Plan on working on presentation and completing that first, then I will work on code and implementation, finally I will spend the rest of the time working on dissertation
 
