@@ -427,3 +427,11 @@
   * Updated Readme's in repo and removed unnecessary files
   * Added manual to understand how to run code
 
+## 6 Mar 2021
+
+* *8 hour* 
+  * Started to go through dissertations first 5 chapters and clean up the writing
+  * Changed parts of implementation section to read easier
+  * Got stuck at evaluation section
+
+
