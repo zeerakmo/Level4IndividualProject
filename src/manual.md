@@ -44,8 +44,8 @@ This will result in a JSON file containing the algorithms results.
 ## evaluation.ipynb
 To run the evaluation file against the results generated:
 
- - take the JSON files outputted by the algorithms and [ground truth
-   coordinate file (https://github.com/zeerakmo/Level4IndividualProject/blob/master/data/processed/json_resized/faces_annotated_resized.json).
+ - take the [resized JSON files outputted by the algorithms and ground truth
+   coordinate file](https://github.com/zeerakmo/Level4IndividualProject/blob/master/data/processed/json_resized/faces_annotated_resized.json).
  - Upload these 5 JSON files in the "content/" directory.
  - Next upload the [5025 dataset](https://github.com/zeerakmo/Level4IndividualProject/tree/master/data/dataset5025/5025%20Dataset%20Resized) into the "content/dataset/" directory. 
  - Run each cell in the notebook to generate figures and run experiments
