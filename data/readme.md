@@ -26,8 +26,8 @@ Contains supplementary notebooks that were used to process the images and raw da
 Contains the JSON annotation files outputted by the algorithms as well as the ground truth annotations in the JSON format
 
  - json
-	 - Contains the results for each algorithm on the original dataset
- - json_resized, along with the ground truth
+	 - Contains the results for each algorithm on the original dataset, along with the ground truth
+ - json_resized
 	 - Contains the results for each algorithm on the resized dataset, along with the ground truth
 
 ## raw
