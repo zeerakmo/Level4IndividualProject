@@ -435,3 +435,10 @@
   * Got stuck at evaluation section
 
 
+## 7 Mar 2021
+
+* *8 hour* 
+  * Fixed discussion and results section
+  * Tidied up captions
+  * Added better referencing for web pages
+  * Fixed research question answer
