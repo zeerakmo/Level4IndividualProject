@@ -442,3 +442,11 @@
   * Tidied up captions
   * Added better referencing for web pages
   * Fixed research question answer
+
+## 8 Mar 2021
+
+* *8 hour* 
+  * Went through dissertation and cleaned up spelling and grammar
+  * Added appendix section 
+  * Updated manual and readme for the source code submission
+ 
