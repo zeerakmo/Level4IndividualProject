@@ -1,46 +1,512 @@
-@inproceedings{Pey17,
-  author    = {Simon {Peyton Jones}},
-  title     = {How to Write a Great Research Paper},
-  booktitle = {2017 Imperial College Computing Student Workshop, {ICCSW} 2017, September
-               26-27, 2017, London, {UK}},
-  pages     = {1:1--1:1},
-  year      = {2017},    
-  
+@article{prideorpre,
+  title={Deep learning for face recognition: Pride or prejudiced?},
+  author={Nagpal, Shruti and Singh, Maneet and Singh, Richa and Vatsa, Mayank},
+  journal={arXiv preprint arXiv:1904.01219},
+  year={2019}
+}
+@article{inclusivenet,
+  title={Inclusivefacenet: Improving face attribute detection with race and gender diversity},
+  author={Ryu, Hee Jung and Adam, Hartwig and Mitchell, Margaret},
+  journal={arXiv preprint arXiv:1712.00193},
+  year={2017}
+}
+@article{demographic,
+abstract = {This paper studies the influence of demographics on the performance of face recognition algorithms. The recognition accuracies of six different face recognition algorithms (three commercial, two nontrainable, and one trainable) are computed on a large scale gallery that is partitioned so that each partition consists entirely of specific demographic cohorts. Eight total cohorts are isolated based on gender (male and female), race/ethnicity (Black, White, and Hispanic), and age group (18-30, 30-50, and 50-70 years old). Experimental results demonstrate that both commercial and the nontrainable algorithms consistently have lower matching accuracies on the same cohorts (females, Blacks, and age group 18-30) than the remaining cohorts within their demographic. Additional experiments investigate the impact of the demographic distribution in the training set on the performance of a trainable face recognition algorithm. We show that the matching accuracy for race/ethnicity and age cohorts can be improved by training exclusively on that specific cohort. Operationally, this leads to a scenario, called dynamic face matcher selection, where multiple face recognition algorithms (each trained on different demographic cohorts) are available for a biometric system operator to select based on the demographic information extracted from a probe image. This procedure should lead to improved face recognition accuracy in many intelligence and law enforcement face recognition scenarios. Finally, we show that an alternative to dynamic face matcher selection is to train face recognition algorithms on datasets that are evenly distributed across demographics, as this approach offers consistently high accuracy across all cohorts. {\textcopyright} 2012 IEEE.},
+author = {Klare, Brendan F. and Burge, Mark J. and Klontz, Joshua C. and {Vorder Bruegge}, Richard W. and Jain, Anil K.},
+doi = {10.1109/TIFS.2012.2214212},
+file = {:C$\backslash$:/Users/zeera/Downloads/Face-Recognition-Performance-Role-of-Demographic.pdf:pdf},
+issn = {15566013},
+journal = {IEEE Transactions on Information Forensics and Security},
+keywords = {Age,demographics,dynamic face matcher selection,face recognition,gender,race/ethnicity,training},
+number = {6},
+pages = {1789--1801},
+title = {{Face recognition performance: Role of demographic information}},
+volume = {7},
+year = {2012}
+}
+@INPROCEEDINGS{retinaface,
+  author={J. {Deng} and J. {Guo} and E. {Ververas} and I. {Kotsia} and S. {Zafeiriou}},
+  booktitle={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={RetinaFace: Single-Shot Multi-Level Face Localisation in the Wild}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={5202-5211},
+  doi={10.1109/CVPR42600.2020.00525}}
+@inproceedings{viola,
+abstract = {This paper describes a machine learning approach for visual object detection which is capable of processing images extremely rapidly and achieving high detection rates. This work is distinguished by three key contributions. The first is the introduction of a new image representation called the "Integral Image" which allows the features used by our detector to be computed very quickly. The second is a learning algorithm, based on AdaBoost, which selects a small number of critical visual features from a larger set and yields extremely efficient classifiers. The third contribution is a method for combining increasingly more complex classifiers in a "cascade" which allows background regions of the image to be quickly discarded while spending more computation on promising object-like regions. The cascade can be viewed as an object specific focus-of-attention mechanism which unlike previous approaches provides statistical guarantees that discarded regions are unlikely to contain the object of interest. In the domain of face detection the system yields detection rates comparable to the best previous systems. Used in real-time applications, the detector runs at 15 frames per second without resorting to image differencing or skin color detection.},
+author = {Viola, Paul and Jones, Michael and others},
+booktitle = {Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition},
+doi = {10.1109/cvpr.2001.990517},
+file = {:C$\backslash$:/Users/zeera/Downloads/viola01rapid.pdf:pdf},
+issn = {10636919},
+title = {{Rapid object detection using a boosted cascade of simple features}},
+year = {2001}
+}
+@article{mtcnn,
+abstract = {Face detection and alignment in unconstrained environment are challenging due to various poses, illuminations, and occlusions. Recent studies show that deep learning approaches can achieve impressive performance on these two tasks. In this letter, we propose a deep cascaded multitask framework that exploits the inherent correlation between detection and alignment to boost up their performance. In particular, our framework leverages a cascaded architecture with three stages of carefully designed deep convolutional networks to predict face and landmark location in a coarse-to-fine manner. In addition, we propose a new online hard sample mining strategy that further improves the performance in practice. Our method achieves superior accuracy over the state-of-the-art techniques on the challenging face detection dataset and benchmark and WIDER FACE benchmarks for face detection, and annotated facial landmarks in the wild benchmark for face alignment, while keeps real-time performance.},
+archivePrefix = {arXiv},
+arxivId = {1604.02878},
+author = {Zhang, Kaipeng and Zhang, Zhanpeng and Li, Zhifeng and Qiao, Yu},
+doi = {10.1109/LSP.2016.2603342},
+eprint = {1604.02878},
+file = {:C$\backslash$:/Users/zeera/Downloads/1604.02878.pdf:pdf},
+issn = {10709908},
+journal = {IEEE Signal Processing Letters},
+keywords = {Cascaded convolutional neural network (CNN),face alignment,face detection},
+number = {10},
+pages = {1499--1503},
+title = {{Joint Face Detection and Alignment Using Multitask Cascaded Convolutional Networks}},
+volume = {23},
+year = {2016}
+}
+@article{hog,
+abstract = {We study the question of feature sets for robust visual object recognition, adopting linear SVM based human detection as a test case. After reviewing existing edge and gradient based descriptors, we show experimentally that grids of Histograms of Oriented Gradient (HOG) descriptors significantly outperform existing feature sets for human detection. We study the influence of each stage of the computation on performance, concluding that fine-scale gradients, fine orientation binning, relatively coarse spatial binning, and high-quality local contrast normalization in overlapping descriptor blocks are all important for good results. The new approach gives near-perfect separation on the original MIT pedestrian database, so we introduce a more challenging dataset containing over 1800 annotated human images with a large range of pose variations and backgrounds. {\textcopyright} 2005 IEEE.},
+author = {Dalal, Navneet and Triggs, Bill},
+doi = {10.1109/CVPR.2005.177},
+file = {:C$\backslash$:/Users/zeera/Downloads/01467360.pdf:pdf},
+isbn = {0769523722},
+journal = {Proceedings - 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition, CVPR 2005},
+pages = {886--893},
+title = {{Histograms of oriented gradients for human detection}},
+volume = {I},
+year = {2005}
+}
+@article{300w,
+abstract = {Automatic facial point detection plays arguably the most important role in face analysis. Several methods have been proposed which reported their results on databases of both constrained and unconstrained conditions. Most of these databases provide annotations with different mark-ups and in some cases the are problems related to the accuracy of the fiducial points. The aforementioned issues as well as the lack of a evaluation protocol makes it difficult to compare performance between different systems. In this paper, we present the 300 Faces in-the-Wild Challenge: The first facial landmark localization Challenge which is held in conjunction with the International Conference on Computer Vision 2013, Sydney, Australia. The main goal of this challenge is to compare the performance of different methods on a new-collected dataset using the same evaluation protocol and the same mark-up and hence to develop the first standardized benchmark for facial landmark localization. {\textcopyright} 2013 IEEE.},
+author = {Sagonas, Christos and Tzimiropoulos, Georgios and Zafeiriou, Stefanos and Pantic, Maja},
+doi = {10.1109/ICCVW.2013.59},
+file = {:C$\backslash$:/Users/zeera/Downloads/sagonas{\_}iccv{\_}2013{\_}300{\_}w.pdf:pdf},
+isbn = {9781479930227},
+journal = {Proceedings of the IEEE International Conference on Computer Vision},
+pages = {397--403},
+title = {{300 faces in-the-wild challenge: The first facial landmark Localization Challenge}},
+year = {2013}
+}
+@online{haarlikeimage,
+  author = {Gupta, Rohan},
+  editor = {Towards Data Science},
+  title = {Breaking Down Facial Recognition: The Viola-Jones Algorithm
+},
+  year = 2019,
+  url = {https://towardsdatascience.com/the-intuition-behind-facial-detection-the-viola-jones-algorithm-29d9106b6999},
+  note = {Accessed on 04.02.2021}
+}
+@online{hogastro,
+  author = {Chopra, Eklavya},
+  editor = {Opengenus IQ},
+  title = {Using Histogram of Oriented Gradients (HOG) for Object Detection
+},
+  year = 2017,
+  url = {https://iq.opengenus.org/object-detection-with-histogram-of-oriented-gradients-hog/},
+  note = {Accessed on 05.02.2021}
+}
+@online{hogusain},
+  author = {Mallick, Satya},
+  editor = {Learn OpenCV},
+  title = {Histogram of Oriented Gradients explained using OpenCV
+},
+  year = 2016,
+  url = {https://learnopencv.com/histogram-of-oriented-gradients/},
+note = {Accessed on 04.02.2021}
 }
 
-@book{Wil09,
-  title={Style: the basics of clarity and grace},
-  author={Williams, Joseph M and Bizup, Joseph},
-  year={2009},
-  publisher={Pearson Longman}
+@online{ibm,
+  author = {Puri, Ruchir},
+  editor = {IBM},
+  title = {Mitigating Bias in AI Models},
+  year = 2018,
+  url = {https://www.ibm.com/blogs/research/2018/02/mitigating-bias-ai-models/},
+  note = {Accessed on 15.01.2021}
+}
+@online{microsoft,
+  author = {Roach, John},
+  editor = {Microsoft},
+  title = {Microsoft improves facial recognition technology to perform well across all skin tones, genders},
+  year = 2018,
+  url = {https://blogs.microsoft.com/ai/gender-skin-tone-facial-recognition-improvement/},
+  note = {Accessed on 15.01.2021}
+}
+@article{survey,
+title = {Face Detection: A Survey},
+journal = {Computer Vision and Image Understanding},
+volume = {83},
+number = {3},
+pages = {236-274},
+year = {2001},
+issn = {1077-3142},
+doi = {https://doi.org/10.1006/cviu.2001.0921},
+author = {Erik Hjelmås and Boon Kee Low},
+abstract = {In this paper we present a comprehensive and critical survey of face detection algorithms. Face detection is a necessary first-step in face recognition systems, with the purpose of localizing and extracting the face region from the background. It also has several applications in areas such as content-based image retrieval, video coding, video conferencing, crowd surveillance, and intelligent human–computer interfaces. However, it was not until recently that the face detection problem received considerable attention among researchers. The human face is a dynamic object and has a high degree of variability in its apperance, which makes face detection a difficult problem in computer vision. A wide variety of techniques have been proposed, ranging from simple edge-based algorithms to composite high-level approaches utilizing advanced pattern recognition methods. The algorithms presented in this paper are classified as either feature-based or image-based and are discussed in terms of their technical approach and performance. Due to the lack of standardized tests, we do not provide a comprehensive comparative evaluation, but in cases where results are reported on common datasets, comparisons are presented. We also give a presentation of some proposed applications and possible application areas.}
 }
 
-@book{Pin15,
-  title={The sense of style: The thinking person's guide to writing in the 21st century},
-  author={Pinker, Steven},
+@online{mlm,
+  author = {Brownlee, Jason},
+  editor = {Machine Learning Mastery},
+  title = {A Gentle Introduction to Deep Learning for Face Recognition, genders},
+  year = 2019,
+  url = {https://machinelearningmastery.com/introduction-to-deep-learning-for-face-recognition/},
+  note = {Accessed on 05.11.2020}
+}
+@online{mlmconv,
+  author = {Brownlee, Jason},
+  editor = {Machine Learning Mastery},
+  title = {How Do Convolutional Layers Work in Deep Learning Neural Networks?},
+  year = 2017,
+  url = {https://machinelearningmastery.com/convolutional-layers-for-deep-learning-neural-networks/},
+  note = {Accessed on 05.11.2020}
+}
+@online{iphone,
+  author = {Perillo, Ron},
+  editor = {eTeknix},
+  title = {iPhone X Face ID Unable to Tell Two Chinese Women Apart
+},
+  year = 2018,
+  url = {https://www.eteknix.com/iphone-x-face-id-unable-tell-two-chinese-women-apart/},
+  note = {Accessed on 10.02.2021}
+}
+@online{amazon,
+  author = {Snow, Jacob},
+  editor = {ACLU},
+  title = {Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots
+
+},
+  year = 2018,
+  url = {https://www.aclu.org/blog/privacy-technology/surveillance-technologies/amazons-face-recognition-falsely-matched-28},
+  note = {Accessed on 10.02.2021}
+}
+@online{passport,
+  author = {BBC},
+  editor = {BBC},
+  title = {Passport facial recognition checks fail to work with dark skin
+
+},
+  year = 2019,
+  url = {https://www.bbc.co.uk/news/technology-49993647},
+  note = {Accessed on 10.02.2021}
+}
+@online{68p,
+  author = {Rosebrock, Adrian},
+  editor = {pyimagesearch},
+  title = {Facial landmarks with dlib, OpenCV, and Python
+
+},
+  year = 2017,
+  url = {https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/},
+  note = {Accessed on 08.10.2020}
+}
+@online{fpnsemantic,
+  author = {Hui, Jonathon},
+  editor = {Medium},
+  title = {Understanding Feature Pyramid Networks for object detection (FPN)
+
+},
+  year = 2018,
+  url = {https://jonathan-hui.medium.com/understanding-feature-pyramid-networks-for-object-detection-fpn-45b227b9106c},
+  note = {Accessed on 08.11.2020}
+}
+@online{iou,
+  author = {Rosebrock, Adrian},
+  editor = {pyimagesearch},
+  title = {Intersection over Union (IoU) for object detection
+
+},
+  year = 2016,
+  url = {https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/},
+  note = {Accessed on 15.11.2020}
+}
+@online{cnn,
+  author = {Rosebrock, Adrian},
+  editor = {pyimagesearch},
+  title = {Intersection over Union (IoU) for object detection
+
+},
+  year = 2016,
+  url = {https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/},
+}
+@online{hollywoo,
+  author = {Santhanam, Laura},
+  editor = {Nation},
+  title = {Out of 30,000 Hollywood film characters, here’s how many weren’t white
+},
+  year = 2015,
+  url = {https://www.pbs.org/newshour/nation/30000-hollywood-film-characters-heres-many-werent-white},
+  note = {Accessed on 06.03.2021}
+}
+
+@misc{mtcnngit,
+  author = {Esler, Tim},
+  title = {facenet-pytorch},
+  year = {2020},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/timesler/facenet-pytorch}}
+
+}
+@misc{retinagit,
+  author = {Iglovikov, Vladimir},
+  title = {retinaface},
+  year = {2020},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/ternaus/retinaface}}
+
+}
+@misc{makesense,
+  author = {Skalski, Piotr},
+  title = {make-sense},
+  year = {2020},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {https://github.com/SkalskiP/make-sense}}
+
+}
+@InProceedings{gendershades, title = {Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification}, author = {Joy Buolamwini and Timnit Gebru}, booktitle = {Proceedings of the 1st Conference on Fairness, Accountability and Transparency}, pages = {77--91}, year = {2018}, editor = {Sorelle A. Friedler and Christo Wilson}, volume = {81}, series = {Proceedings of Machine Learning Research}, address = {New York, NY, USA}, month = {23--24 Feb}, publisher = {PMLR}, pdf = {http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf}, abstract = {Recent studies demonstrate that machine learning algorithms can discriminate based on classes like race and gender. In this work, we present an approach to evaluate bias present in automated facial analysis algorithms and datasets with respect to phenotypic subgroups. Using the dermatologist approved Fitzpatrick Skin Type classification system, we characterize the gender and skin type distribution of two facial analysis benchmarks, IJB-A and Adience. We find that these datasets are overwhelmingly composed of lighter-skinned subjects}
+}
+@inproceedings{fairface,
+title={FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age for Bias Measurement and Mitigation},
+author={Karkkainen, Kimmo and Joo, Jungseock},
+booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+year={2021},
+pages={1548--1558}
+}
+
+@inproceedings{expression,
+author = {Shinwari, Ali and Balooch, Asadullah and Alariki, Ala and Abduljalil Abdulhak, Sami},
+year = {2019},
+month = {02},
+pages = {390-394},
+title = {A Comparative Study of Face Recognition Algorithms under Facial Expression and Illumination},
+doi = {10.23919/ICACT.2019.8702002}
+}
+@inproceedings{onemilli,
+abstract = {This paper addresses the problem of Face Alignment for a single image. We show how an ensemble of regression trees can be used to estimate the face's landmark positions directly from a sparse subset of pixel intensities, achieving super-realtime performance with high quality predictions. We present a general framework based on gradient boosting for learning an ensemble of regression trees that optimizes the sum of square error loss and naturally handles missing or partially labelled data. We show how using appropriate priors exploiting the structure of image data helps with efficient feature selection. Different regularization strategies and its importance to combat overfitting are also investigated. In addition, we analyse the effect of the quantity of training data on the accuracy of the predictions and explore the effect of data augmentation using synthesized data.},
+author = {Kazemi, Vahid and Sullivan, Josephine},
+booktitle = {Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition},
+doi = {10.1109/CVPR.2014.241},
+isbn = {9781479951178},
+issn = {10636919},
+keywords = {Decision Trees,Face Alignment,Gradient Boosting,Real-Time},
+title = {{One millisecond face alignment with an ensemble of regression trees}},
+year = {2014}
+}
+@article{datasetbias,
+abstract = {The presence of a bias in each image data collection has recently attracted a lot of attention in the computer vision community showing the limits in generalization of any learning method trained on a specific dataset. At the same time, with the rapid development of deep learning architectures, the activation values of Convolutional Neural Networks (CNN) are emerging as reliable and robust image descriptors. In this chapter we propose to verify the potential of the CNN features when facing the dataset bias problem. With this purpose we introduce a large testbed for cross-dataset analysis and we discuss the challenges faced to create two comprehensive experimental setups by aligning twelve existing image databases. We conduct a series of analyses looking at how the datasets differ among each other and verifying the performance of existing debiasing methods under different representations. We learn important lessons on which part of the dataset bias problem can be considered solved and which open questions still need to be tackled.},
+archivePrefix = {arXiv},
+arxivId = {1505.01257},
+author = {Tommasi, Tatiana and Patricia, Novi and Caputo, Barbara and Tuytelaars, Tinne},
+doi = {10.1007/978-3-319-58347-1_2},
+eprint = {1505.01257},
+file = {:C$\backslash$:/Users/zeera/Downloads/1505.01257.pdf:pdf},
+issn = {21916594},
+journal = {Advances in Computer Vision and Pattern Recognition},
+number = {9783319583464},
+pages = {37--55},
+title = {{A deeper look at dataset bias}},
+year = {2017}
+}
+
+@article{nist,
+abstract = {hmarks, IJB-A and Adience. We find that these datasets are overwhelmingly composed of lighter-skinned subjects (79.6{\%} for IJB-A and 86.2{\%} for Adience) and introduce a new facial analysis dataset which is balanced by gender and skin type. We evaluate 3 commercial gender classification systems using our dataset and show that darker-skinned females are the most misclassified group (with error rates of up to 34.7{\%}). The maximum error rate for lighter-skinned males is 0.8{\%}. The substantial disparities in the accuracy of classifying darker females, lighter females, darker males, and lighter males in gender classification systems require urgent attention if commercial companies are to build genuinely fair, transparent and accountable facial analysis algorithms.},
+author = {Grother, Patrick and Ngan, M and Hanaoka, K},
+file = {:C$\backslash$:/Users/zeera/Downloads/NIST.IR.8280.pdf:pdf},
+journal = {Nistir 8280},
+keywords = {Biometrics},
+pages = {https://doi.org/10.6028/NIST.IR.8280},
+title = {{Face Recognition Vendor Test ( FRVT ) Part 3 : Demographic Effects}},
+volume = {December},
+year = {2019}
+}
+@inproceedings{celeba,
+  author={Z. {Liu} and P. {Luo} and X. {Wang} and X. {Tang}},
+  booktitle={2015 IEEE International Conference on Computer Vision (ICCV)}, 
+  title={Deep Learning Face Attributes in the Wild}, 
   year={2015},
-  publisher={Penguin Books}
+  volume={},
+  number={},
+  pages={3730-3738},
+  doi={10.1109/ICCV.2015.425}}
+@inproceedings{vggface2,
+abstract = {In this paper, we introduce a new large-scale face dataset named VGGFace2. The dataset contains 3.31 million images of 9131 subjects, with an average of 362.6 images for each subject. Images are downloaded from Google Image Search and have large variations in pose, age, illumination, ethnicity and profession (e.g. actors, athletes, politicians). The dataset was collected with three goals in mind: (i) to have both a large number of identities and also a large number of images for each identity; (ii) to cover a large range of pose, age and ethnicity; and (iii) to minimise the label noise. We describe how the dataset was collected, in particular the automated and manual filtering stages to ensure a high accuracy for the images of each identity. To assess face recognition performance using the new dataset, we train ResNet-50 (with and without Squeeze-and-Excitation blocks) Convolutional Neural Networks on VGGFace2, on MS-Celeb-1M, and on their union, and show that training on VGGFace2 leads to improved recognition performance over pose and age. Finally, using the models trained on these datasets, we demonstrate state-of-the-art performance on the IJB-A and IJB-B face recognition benchmarks, exceeding the previous state-of-the-art by a large margin. The dataset and models are publicly available.},
+archivePrefix = {arXiv},
+arxivId = {1710.08092},
+author = {Cao, Qiong and Shen, Li and Xie, Weidi and Parkhi, Omkar M. and Zisserman, Andrew},
+booktitle = {Proceedings - 13th IEEE International Conference on Automatic Face and Gesture Recognition, FG 2018},
+doi = {10.1109/FG.2018.00020},
+eprint = {1710.08092},
+isbn = {9781538623350},
+keywords = {Convolutional neural networks,Face dataset,Face recognition},
+title = {{VGGFace2: A dataset for recognising faces across pose and age}},
+year = {2018}
 }
-
-@book{StrWhi07,
-  title={The Elements of style},
-  author={Strunk, William and Whyte, EB},
-  year={2007},
-  publisher={Penguin}
+@inproceedings{pubfig,
+abstract = {We present two novel methods for face verification. Our first method - "attribute" classifiers - uses binary classifiers trained to recognize the presence or absence of describable aspects of visual appearance (e.g., gender, race, and age). Our second method - "simile" classifiers - removes the manual labeling required for attribute classification and instead learns the similarity of faces, or regions of faces, to specific reference people. Neither method requires costly, often brittle, alignment between image pairs; yet, both methods produce compact visual descriptions, and work on real-world images. Furthermore, both the attribute and simile classifiers improve on the current state-of-the-art for the LFW data set, reducing the error rates compared to the current best by 23.92{\%} and 26.34{\%}, respectively, and 31.68{\%} when combined. For further testing across pose, illumination, and expression, we introduce a new data set - termed PubFig - of real-world images of public figures (celebrities and politicians) acquired from the internet. This data set is both larger (60,000 images) and deeper (300 images per individual) than existing data sets of its kind. Finally, we present an evaluation of human performance. {\textcopyright}2009 IEEE.},
+author = {Kumar, Neeraj and Berg, Alexander C. and Belhumeur, Peter N. and Nayar, Shree K.},
+booktitle = {Proceedings of the IEEE International Conference on Computer Vision},
+doi = {10.1109/ICCV.2009.5459250},
+isbn = {9781424444205},
+title = {{Attribute and simile classifiers for face verification}},
+year = {2009}
 }
-
-@book{Von80,
-  title={How to write with style},
-  author={Vonnegut, Kurt},
-  year={1980},
-  publisher={International Paper Company}
+@article{dif,
+  title={Diversity in faces},
+  author={Merler, Michele and Ratha, Nalini and Feris, Rogerio S and Smith, John R},
+  journal={arXiv preprint arXiv:1901.10436},
+  year={2019}
 }
+@article{fpn,
+abstract = {Feature Pyramid Networks (FPN) is a popular feature extraction. However, FPN and its variants do not investigate the influence of resolution information and semantic information in the object detection. Thus, FPN and its variants cannot detect some objects on challenging images. In this paper, based on FPN, we propose to use gaussian kernel function to assign different weight values to semantic information and resolution information for different images in the object detection. The proposed method, is called a Weighted Feature Pyramid Network (WFPN), and shows significant improvement over the traditional feature pyramids in several applications. Using WFPN in Faster R-CNN system, the proposed method achieves better performance on the PASCAL detection benchmark.},
+archivePrefix = {arXiv},
+arxivId = {arXiv:1612.03144v2},
+author = {Li, Xiaohan and Lai, Taotao and Wang, Shuaiyu and Chen, Quan and Yang, Changcai and Chen, Riqing},
+doi = {10.1109/ISPA-BDCloud-SustainCom-SocialCom48970.2019.00217},
+eprint = {arXiv:1612.03144v2},
+file = {:C$\backslash$:/Users/zeera/Downloads/1612.03144 (1).pdf:pdf},
+isbn = {9781728143286},
+journal = {Proceedings - 2019 IEEE Intl Conf on Parallel and Distributed Processing with Applications, Big Data and Cloud Computing, Sustainable Computing and Communications, Social Computing and Networking, ISPA/BDCloud/SustainCom/SocialCom 2019},
+keywords = {Gaussian kernel function,Resolution information,Semantic information,Weighted feature pyramid networks},
+pages = {1500--1504},
+title = {{Weighted feature pyramid networks for object detection}},
+year = {2019}
+}
+@INPROCEEDINGS{ijb-c,
+  author={B. {Maze} and J. {Adams} and J. A. {Duncan} and N. {Kalka} and T. {Miller} and C. {Otto} and A. K. {Jain} and W. T. {Niggel} and J. {Anderson} and J. {Cheney} and P. {Grother}},
+  booktitle={2018 International Conference on Biometrics (ICB)}, 
+  title={IARPA Janus Benchmark - C: Face Dataset and Protocol}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={158-165},
+  doi={10.1109/ICB2018.2018.00033}}
+  
+@INPROCEEDINGS{utkface,
+  author={Z. {Zhang} and Y. {Song} and H. {Qi}},
+  booktitle={2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={Age Progression/Regression by Conditional Adversarial Autoencoder}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={4352-4360},
+  doi={10.1109/CVPR.2017.463}}
 
-@incollection{Orw68,
-  title={Politics and the {English} language},
-  author={Orwell, George},
-  booktitle={The collected essays, journalism and letters of George Orwell},
-  pages={127--140},
-  year={1968},
-  publisher={Harcourt, Brace, Javanovich}
+@INPROCEEDINGS{agedb,
+  author={S. {Moschoglou} and A. {Papaioannou} and C. {Sagonas} and J. {Deng} and I. {Kotsia} and S. {Zafeiriou}},
+  booktitle={2017 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
+  title={AgeDB: The First Manually Collected, In-the-Wild Age Database}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={1997-2005},
+  doi={10.1109/CVPRW.2017.250}}
+
+@InProceedings{imdb,
+author="Wang, Fei
+and Chen, Liren
+and Li, Cheng
+and Huang, Shiyao
+and Chen, Yanjie
+and Qian, Chen
+and Loy, Chen Change",
+editor="Ferrari, Vittorio
+and Hebert, Martial
+and Sminchisescu, Cristian
+and Weiss, Yair",
+title="The Devil of Face Recognition Is in the Noise",
+booktitle="Computer Vision -- ECCV 2018",
+year="2018",
+publisher="Springer International Publishing",
+address="Cham",
+pages="780--795"
+}
+@INPROCEEDINGS{rcnn,
+  author={R. {Girshick}},
+  booktitle={2015 IEEE International Conference on Computer Vision (ICCV)}, 
+  title={Fast R-CNN}, 
+  year={2015},
+  volume={},
+  number={},
+  pages={1440-1448},
+  doi={10.1109/ICCV.2015.169}}
+  @INPROCEEDINGS{yolo,  author={J. {Redmon} and S. {Divvala} and R. {Girshick} and A. {Farhadi}},  booktitle={2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},   title={You Only Look Once: Unified, Real-Time Object Detection},   year={2016},  volume={},  number={},  pages={779-788},  doi={10.1109/CVPR.2016.91}}
+  @INPROCEEDINGS{widerface,
+  author={S. {Yang} and P. {Luo} and C. C. {Loy} and X. {Tang}},
+  booktitle={2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={WIDER FACE: A Face Detection Benchmark}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={5525-5533},
+  doi={10.1109/CVPR.2016.596}}
+  @ARTICLE{facebio,
+  author={K. I. {Chang} and K. W. {Bowyer} and P. J. {Flynn}},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={An evaluation of multimodal 2D+3D face biometrics}, 
+  year={2005},
+  volume={27},
+  number={4},
+  pages={619-624},
+  doi={10.1109/TPAMI.2005.70}}
+  @article{facehealth,
+author = {Rai, M.C.E.L. and Werghi, Naoufel and Muhairi, Hassan and Alsafar, Habiba},
+year = {2015},
+month = {04},
+pages = {},
+title = {Using facial images for the diagnosis of genetic syndromes: A survey},
+journal = {2015 International Conference on Communications, Signal Processing, and Their Applications, ICCSPA 2015},
+doi = {10.1109/ICCSPA.2015.7081271}
+}
+@article{dlib,
+author = {King, Davis},
+year = {2009},
+month = {07},
+pages = {1755-1758},
+title = {Dlib-ml: A Machine Learning Toolkit},
+volume = {10},
+journal = {Journal of Machine Learning Research},
+doi = {10.1145/1577069.1755843}
+}
+@INPROCEEDINGS{dcn,
+  author={J. {Dai} and H. {Qi} and Y. {Xiong} and Y. {Li} and G. {Zhang} and H. {Hu} and Y. {Wei}},
+  booktitle={2017 IEEE International Conference on Computer Vision (ICCV)}, 
+  title={Deformable Convolutional Networks}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={764-773},
+  doi={10.1109/ICCV.2017.89}}
+  @article{opencv,
+    author = {Bradski, G.},
+    citeulike-article-id = {2236121},
+    journal = {Dr. Dobb's Journal of Software Tools},
+    keywords = {bibtex-import},
+    posted-at = {2008-01-15 19:21:54},
+    priority = {4},
+    title = {{The OpenCV Library}},
+    year = {2000}
+}
+@ARTICLE{haar,
+  author={S. G. {Mallat}},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={A theory for multiresolution signal decomposition: the wavelet representation}, 
+  year={1989},
+  volume={11},
+  number={7},
+  pages={674-693},
+  doi={10.1109/34.192463}}
+@inproceedings{freebase,
+author = {Bollacker, Kurt and Evans, Colin and Paritosh, Praveen and Sturge, Tim and Taylor, Jamie},
+title = {Freebase: A Collaboratively Created Graph Database for Structuring Human Knowledge},
+year = {2008},
+isbn = {9781605581026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1376616.1376746},
+doi = {10.1145/1376616.1376746},
+abstract = {Freebase is a practical, scalable tuple database used to structure general human knowledge. The data in Freebase is collaboratively created, structured, and maintained. Freebase currently contains more than 125,000,000 tuples, more than 4000 types, and more than 7000 properties. Public read/write access to Freebase is allowed through an HTTP-based graph-query API using the Metaweb Query Language (MQL) as a data query and manipulation language. MQL provides an easy-to-use object-oriented interface to the tuple data in Freebase and is designed to facilitate the creation of collaborative, Web-based data-oriented applications.},
+booktitle = {Proceedings of the 2008 ACM SIGMOD International Conference on Management of Data},
+pages = {1247–1250},
+numpages = {4},
+keywords = {semantic network, collaborative systems, tuple store},
+location = {Vancouver, Canada},
+series = {SIGMOD '08}
 }
