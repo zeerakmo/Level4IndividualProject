@@ -26,17 +26,19 @@ The project was created using the cloud based Python notebook through Google Col
 ### How to run
 To run evaluation file on pre-existing results then:
 
- - Open evaluation file and upload files into the structure described in the file.
-	 - These files have all been pre-created and can be taken from the [JSON Resized folder](https://github.com/zeerakmo/Level4IndividualProject/tree/master/data/processed/json_resized). This contains the algorithms results on the [5025 resized dataset](https://github.com/zeerakmo/Level4IndividualProject/tree/master/data/dataset5025/5025%20Dataset%20Resized).
+ - Open evaluation file and upload files according to the structure described in the notebook. The files required to upload are the:
+	 - 5 annoation files from the json_resized folder
+	 - The 5025 resized dataset images from the 5025 Dataset Resized folder
+ - Run the cells in the evaluation notebook with these files to generate the results
 
 To run the algorithms and evalute your own results
  - Open the 4 algorithms implementations in Google Collab
- - Run through each algorithms notebook using the file structure described at the top of each notebook
-	 - This will involve uploading the [5025 resized dataset](https://github.com/zeerakmo/Level4IndividualProject/tree/master/data/dataset5025/5025%20Dataset%20Resized)  
-	 - Running the detectors and predictors
-	 - Outputting the resulting coordinates in JSON files
+ - Run through each algorithms notebook using the file structure described at the top of each notebook, this will involve:
+	 - Uploading the 5025 resized dataset  
+	 - Running the cells in the notebook
+	 - Saving the resulting JSON file that contains the results
  - Open the evaluation notebook in Google Collab and follow the file structure described at the top of the notebook	
-	 - This will involve uploading the 4 JSON files which contain the results of the algorithms as well, as the [ground truth coordinate file](https://github.com/zeerakmo/Level4IndividualProject/blob/master/data/processed/json_resized/faces_annotated_resized.json)
- - Run through the notebook to generate each figure and experiment.
+	 - This will involve uploading the 4 JSON files created which contain the results of the algorithms as well as the ground truth annotations file from the json_resized folder
+ - Run the cells in the evaluation notebook with these files to generate the results
 
-For more detailed instructions on how to run the notebooks look towards the [manual.md](https://github.com/zeerakmo/Level4IndividualProject/blob/master/src/manual.md) file.
+For more detailed instructions on how to run the notebooks look towards the manual.md file.
