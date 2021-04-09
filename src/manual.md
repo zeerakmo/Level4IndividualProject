@@ -44,8 +44,8 @@ This will result in a JSON file containing the algorithms results.
 ## evaluation.ipynb
 To run the evaluation file against the results generated:
 
- - Upload the 4 JSON files created by running the algorithms in the "content/" directory.
- - Upload the ground truth annotations file from the json_resized folder to the "content/" directory
+ - Upload the 4 JSON files created by running the algorithms in the "content/" directory or upload the 4 pre-existing result files provided in the json_resized folder.
+ - Upload the ground truth annotations file (faces_annotated.json) from the json_resized folder to the "content/" directory
  - Next upload the 5025 Resized dataset into the "content/dataset/" directory. 
  - Run each cell in the notebook to generate figures and run experiments
 
