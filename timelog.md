@@ -450,3 +450,8 @@
   * Added appendix section 
   * Updated manual and readme for the source code submission
  
+ ## 9 Mar 2021
+
+* *6 hour* 
+  * Final Readthrough of dissertation 
+  * Submitted Dissertation
